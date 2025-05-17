@@ -1,33 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "/home/brandon/Documentos/Proyectos VSCode/webapi/BookApi.Tests/BookApi.Tests.csproj": {}
+    "D:\\Proyectos c#\\WebApis\\BookApi.Tests\\BookApi.Tests.csproj": {}
   },
   "projects": {
-    "/home/brandon/Documentos/Proyectos VSCode/webapi/BookApi.Tests/BookApi.Tests.csproj": {
+    "D:\\Proyectos c#\\WebApis\\BookApi.Tests\\BookApi.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/brandon/Documentos/Proyectos VSCode/webapi/BookApi.Tests/BookApi.Tests.csproj",
+        "projectUniqueName": "D:\\Proyectos c#\\WebApis\\BookApi.Tests\\BookApi.Tests.csproj",
         "projectName": "BookApi.Tests",
-        "projectPath": "/home/brandon/Documentos/Proyectos VSCode/webapi/BookApi.Tests/BookApi.Tests.csproj",
-        "packagesPath": "/home/brandon/.nuget/packages/",
-        "outputPath": "/home/brandon/Documentos/Proyectos VSCode/webapi/BookApi.Tests/obj/",
+        "projectPath": "D:\\Proyectos c#\\WebApis\\BookApi.Tests\\BookApi.Tests.csproj",
+        "packagesPath": "C:\\Users\\Brandon\\.nuget\\packages\\",
+        "outputPath": "D:\\Proyectos c#\\WebApis\\BookApi.Tests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/brandon/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Brandon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/home/brandon/Documentos/Proyectos VSCode/webapi/DemoMinimalAPI/DemoMinimalAPI.csproj": {
-                "projectPath": "/home/brandon/Documentos/Proyectos VSCode/webapi/DemoMinimalAPI/DemoMinimalAPI.csproj"
+              "D:\\Proyectos c#\\WebApis\\DemoMinimalAPI\\DemoMinimalAPI.csproj": {
+                "projectPath": "D:\\Proyectos c#\\WebApis\\DemoMinimalAPI\\DemoMinimalAPI.csproj"
               }
             }
           }
@@ -42,7 +48,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -91,26 +97,32 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/brandon/Documentos/Proyectos VSCode/webapi/DemoMinimalAPI/DemoMinimalAPI.csproj": {
+    "D:\\Proyectos c#\\WebApis\\DemoMinimalAPI\\DemoMinimalAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/brandon/Documentos/Proyectos VSCode/webapi/DemoMinimalAPI/DemoMinimalAPI.csproj",
+        "projectUniqueName": "D:\\Proyectos c#\\WebApis\\DemoMinimalAPI\\DemoMinimalAPI.csproj",
         "projectName": "DemoMinimalAPI",
-        "projectPath": "/home/brandon/Documentos/Proyectos VSCode/webapi/DemoMinimalAPI/DemoMinimalAPI.csproj",
-        "packagesPath": "/home/brandon/.nuget/packages/",
-        "outputPath": "/home/brandon/Documentos/Proyectos VSCode/webapi/DemoMinimalAPI/obj/",
+        "projectPath": "D:\\Proyectos c#\\WebApis\\DemoMinimalAPI\\DemoMinimalAPI.csproj",
+        "packagesPath": "C:\\Users\\Brandon\\.nuget\\packages\\",
+        "outputPath": "D:\\Proyectos c#\\WebApis\\DemoMinimalAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/brandon/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Brandon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -129,16 +141,12 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Mvc.Testing": {
-              "target": "Package",
-              "version": "[9.0.5, )"
-            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.10, )"
@@ -191,7 +199,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

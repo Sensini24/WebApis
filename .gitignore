@@ -1,0 +1,84 @@
+# Ignorar la carpeta de Visual Studio
+.vs/
+
+# Ignorar carpetas de compilación y objetos
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+
+# Ignorar paquetes NuGet
+*.nupkg
+# Ignorar la carpeta de paquetes (si no usas PackageReference en el csproj)
+# packages/
+
+# Ignorar archivos generados por Visual Studio
+*.user
+*.suo
+*.log
+*.pdb
+*.idl
+*.reg
+*.ncb
+*.opendb
+*.aps
+*.pch
+*.bsc
+*.sbr
+*.xml # Puede que necesites ajustar esto si generas XML de documentación que SÍ quieras versionar
+*_UpgradeReport.htm
+.teststore
+*.csproj.user
+*.vcxproj.user
+*.sln.tags
+*.bak
+*.vssscc
+*.vsscc
+*.vspscc
+*.vsto
+*.vsprops
+*.vbw
+*.vbscc
+.vsixmanifest
+.vsix
+
+# Ignorar archivos temporales de compilación
+*.builds
+*.cache
+
+# Ignorar resultados de pruebas
+TestResults/
+
+# Ignorar archivos de Rider (IDE)
+.idea/
+
+# Ignorar archivos de VS Code (IDE)
+.vscode/ # Puedes ajustar esto si SÍ quieres versionar configuraciones específicas de VS Code
+
+# Ignorar archivos de reporte de cobertura de código
+coverage.cobertura.xml
+*.opencover
+
+# Ignorar certificados
+*.pfx
+*.cer
+
+# Ignorar archivos de base de datos local (SQL Server Express, etc.)
+*.mdf
+*.ldf
+
+# Ignorar secretos de usuario local
+*.usersecrets
+
+# Ignorar archivos de configuración publicados (si los generas localmente)
+Publish/
+publish/
+
+# Ignorar archivos de docker-compose generados localmente
+docker-compose.vs.debug.yml
+docker-compose.vs.release.yml
+
+# Ignorar archivos de configuración de depuración de Azure Functions local
+local.settings.json # Si contiene secretos, si no, puedes considerarlo
+
+# Puedes añadir más patrones si encuentras otros archivos que no quieres versionar
